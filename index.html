@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator | Basic, Square & Cube</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -12,12 +13,27 @@
     <div class="container">
         <form>
             <p>CALC</p>
-            <input type="text" id="calc"><br>
-            <button class="btn-number">7</button>
-            <button class="btn-number">8</button>
-            <button class="btn-number">9</button>
-            <button class="btn-operator">/</button>
-
+            <input type="text" id="calc" /><br>
+            <input type="button" class="btn-number" value="7" onclick="btnClick(value)">
+            <input type="button" class="btn-number" value="8" onclick="btnClick(value)">
+            <input type="button" class="btn-number" value="9" onclick="btnClick(value)">
+            <input type="button" class="btn-operation" value="+" onclick="onAddbtnClick(value)">
+            <br>
+            <input type="button" class="btn-number" value="4" onclick="btnClick(value)">
+            <input type="button" class="btn-number" value="5" onclick="btnClick(value)">
+            <input type="button" class="btn-number" value="6" onclick="btnClick(value)">
+            <input type="button" class="btn-operation" value="-" onclick="btnClick(value)">
+            <br>
+            <input type="button" class="btn-number" value="1" onclick="btnClick(value)">
+            <input type="button" class="btn-number" value="2" onclick="btnClick(value)">
+            <input type="button" class="btn-number" value="3" onclick="btnClick(value)">
+            <input type="button" class="btn-operation" value="/" onclick="btnClick(value)">
+            <br>
+            <input type="button" class="btn-clear" value="C" onclick="btnClear(value)">
+            <input type="button" class="btn-number" value="0" onclick="btnClick(value)">
+            <input type="button" class="btn-operation" value="=" onclick="btnResult(value)">
+            <input type="button" class="btn-operation" value="*" onclick="btnClick(value)">
+            <script src="./JavaScript/index.js"></script>
 
         </form>
     </div>
