@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    background-color: #f7faa8;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.container{
+    width:460px;
+    height:540px;
+    background-color: rgb(77, 75, 75);
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#calc{
+    width:420px;
+    height: 60px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 45px;
+    text-align: right;
+    background-color: aquamarine;
+    border-radius: 15px;
+}
+.btn-number,.btn-clear,.btn-operation{
+    width: 92px;
+    height: 70px;
+    margin: 7px;
+    color: white;
+    font-size: 2.5rem;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.btn-number{
+    background-color: black;
+}
+.btn-operation{
+    background-color: rgb(59, 53, 53);
+}
+
+p{
+    font-weight: 800;
+    color: white;
+    margin:10px;
+    
+}
+.btn-number:hover{
+    border: 2px solid red;
+}
+
+.btn-clear{
+    background-color: red;
+}

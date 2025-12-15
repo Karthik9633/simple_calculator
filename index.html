@@ -12,27 +12,32 @@
     <h1>SIMPLE CALCULATOR</h1>
     <div class="container">
         <form>
-            <p>CALC</p>
+            <p>Casio</p>
             <input type="text" id="calc" /><br>
-            <input type="button" class="btn-number" value="7" onclick="btnClick(value)">
-            <input type="button" class="btn-number" value="8" onclick="btnClick(value)">
-            <input type="button" class="btn-number" value="9" onclick="btnClick(value)">
-            <input type="button" class="btn-operation" value="+" onclick="onAddbtnClick(value)">
+            <input type="button" class="btn-number" value="7" onclick="btnClick('7')">
+            <input type="button" class="btn-number" value="8" onclick="btnClick('8')">
+            <input type="button" class="btn-number" value="9" onclick="btnClick('9')">
+            <input type="button" class="btn-operation" value="+" onclick="btnOperator('+')">
             <br>
-            <input type="button" class="btn-number" value="4" onclick="btnClick(value)">
-            <input type="button" class="btn-number" value="5" onclick="btnClick(value)">
-            <input type="button" class="btn-number" value="6" onclick="btnClick(value)">
-            <input type="button" class="btn-operation" value="-" onclick="btnClick(value)">
+            <input type="button" class="btn-number" value="4" onclick="btnClick('4')">
+            <input type="button" class="btn-number" value="5" onclick="btnClick('5')">
+            <input type="button" class="btn-number" value="6" onclick="btnClick('6')">
+            <input type="button" class="btn-operation" value="-" onclick="btnOperator('-')">
             <br>
-            <input type="button" class="btn-number" value="1" onclick="btnClick(value)">
-            <input type="button" class="btn-number" value="2" onclick="btnClick(value)">
-            <input type="button" class="btn-number" value="3" onclick="btnClick(value)">
-            <input type="button" class="btn-operation" value="/" onclick="btnClick(value)">
+            <input type="button" class="btn-number" value="1" onclick="btnClick('1')">
+            <input type ="button" class="btn-number" value="2" onclick="btnClick('2')">
+            <input type="button" class="btn-number" value="3" onclick="btnClick('3')">
+            <input type="button" class="btn-operation" value="/" onclick="btnOperator('/')">
             <br>
-            <input type="button" class="btn-clear" value="C" onclick="btnClear(value)">
-            <input type="button" class="btn-number" value="0" onclick="btnClick(value)">
-            <input type="button" class="btn-operation" value="=" onclick="btnResult(value)">
-            <input type="button" class="btn-operation" value="*" onclick="btnClick(value)">
+            <input type="button" class="btn-clear" value="C" onclick="btnClear()">
+            <input type="button" class="btn-number" value="0" onclick="btnClick('0')">
+            <input type="button" class="btn-operation" value="=" onclick="btnResult()">
+            <input type="button" class="btn-operation" value="*" onclick="btnOperator('*')">
+            <br>
+            <input type="button" class="btn-operation" value="x2" onclick="btnSquare()">
+            <input type="button" class="btn-operation" value="x3" onclick="btnCube()">
+
+             
             <script src="./JavaScript/index.js"></script>
 
         </form>
